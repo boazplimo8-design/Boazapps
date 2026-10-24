@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boaz Apps Store</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #10131c;
+            color: white;
+        }
+        header {
+            background: #171c2b;
+            padding: 25px 15px;
+            text-align: center;
+            border-bottom: 2px solid #6557ff;
+        }
+        header h1 { margin: 0; color: #8c83ff; }
+        header p { color: #c3c6d4; }
+        .container { max-width: 850px; margin: auto; padding: 20px; }
+        .app-card {
+            background: #1b2132;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            text-align: center;
+            border: 1px solid #343b50;
+        }
+        .app-icon {
+            width: 90px;
+            height: 90px;
+            margin: auto;
+            border-radius: 20px;
+            background: #6557ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        .app-card h2 { margin-bottom: 8px; }
+        .download-btn {
+            display: inline-block;
+            background: #6557ff;
+            color: white;
+            padding: 13px 25px;
+            border-radius: 9px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 12px;
+        }
+        .download-btn:hover { background: #8176ff; }
+        footer { text-align: center; padding: 25px; color: #aeb4c5; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BOAZ APPS STORE</h1>
+        <p>Discover and download useful Android apps</p>
+    </header>
+
+    <main class="container">
+        <h2>Available Apps</h2>
+        <section class="app-card">
+            <div class="app-icon" aria-hidden="true">🎨</div>
+            <h2>Ultimate Thumbnail</h2>
+            <p>Create amazing thumbnails for YouTube, gaming videos and social media.</p>
+            <p>Platform: Android</p>
+            <a class="download-btn" href="/downloads/ultimate-thumbnail.apk" download>
+                ⬇ Download APK
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Boaz Apps Store</p>
+        <p>Made with ❤️ by Boaz</p>
+    </footer>
+</body>
+</html>
